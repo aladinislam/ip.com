@@ -1,120 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 130px;
+  /*! width: 700px; */
+  border-radius: 50px;
+  background-image: url(img/worldwide\ print\ network\ -1.gif);
+  /*! margin-left: 220px; */
+  /*! margin-top: 20px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.field {
+  /*! margin-left: 120px; */
+  /*! margin-right: 120px; */
+  max-width: 720px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 40px;
+}
 
+.aladin {
+  color: white;
+  text-align: center;
 }
-.main{
-    
-    height: 130px;
-    width: 700px;
-    border-radius: 50px;
-    background-image: url(img/worldwide\ print\ network\ -1.gif);
-   margin-left: 220px;
-   margin-top: 20px;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.img {
+  margin-top: 20px;
+  height: 50px;
 }
-.field{
-    margin-left: 120px;
-    margin-right: 120px;
+.rad {
+  color: red;
 }
-
-.aladin{
-    color: white;
-    text-align: center;
-    
+.box {
+  border-radius: 20px;
+  height: 30px;
+  /*! width: 600px; */
+  background: #aecde2;
+  margin-top: 20px;
+  /*! margin-left: 270px; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.img{
-    margin-top: 20px;
-    height: 50px;
-}
-.rad{
-    color: red;
-}
-.box{
-    border-radius: 20px;
-    height: 30px;
-    width: 600px;
-    background: #AECDE2;
-    margin-top: 20px;
-    margin-left: 270px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-}
-.proxy{
+.proxy {
   text-align: center;
   padding-top: 5px;
 }
-.ip{
-    color: red;
-    font-weight: 800;
+.ip {
+  color: red;
+  font-weight: 800;
 }
-.main2{
-    display: flex;
-    justify-content: space-between;
-   font-size: 32px;
-    font-weight: bold;
-    margin-top: 25px;
-  margin-left: 390px;
-  margin-right: 370px;
+.main2 {
+  display: flex;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 25px;
+  /*! margin-left: 258px; */
+  /*! margin-right: 578px; */
   color: #207a9b;
 }
-.all{
-    height: 700px;
-    width:600px;
-    background: rgb(237, 241, 241);
-    border-radius: 10px;
-    margin-top: 25px;
-    margin-left: 260px;
-    margin-bottom: 40px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.main2 > div {
+  margin-right: 32px;
 }
-.put{
-    text-align: center;
-    height: 35px;
-    width: 300px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 20px;
-    margin-left: 80px;
+.all {
+  height: 700px;
+  width: 600px;
+  background: rgb(237, 241, 241);
+  border-radius: 10px;
+  margin-top: 25px;
+  /*! margin-left: 260px; */
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
 }
-    
-    .sub {background-image: linear-gradient(to right, #003F83 0%, #003F83  51%,#003F83  100%)}
-    
- .sub{
-     color: white;
-     height: 35px;
-     width: 120px;
-     margin-left: 10px;
-     border-radius: 5px;
-     border: none;
-     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- }
+.put {
+  text-align: center;
+  height: 35px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
 
-.table1{
+.sub {
+  background-image: linear-gradient(
+    to right,
+    #003f83 0%,
+    #003f83 51%,
+    #003f83 100%
+  );
+}
 
-height: 600px;
-width: 350px;
-margin-top: 25px;
-margin-left: 110px;
-font-size: 18px;
-   
+.sub {
+  color: white;
+  height: 35px;
+  width: 120px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.map{
- text-align: center;
- margin-left: 13px;
+
+.table1 {
+  height: 600px;
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 110px;
+  font-size: 18px;
 }
-.p1{
-    text-align: center;
-    font-size: 18px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    margin-right: 20px;
+.map {
+  /*! text-align: center; */
+  /*! margin-left: 264px; */
+  margin: 30px 0;
 }
-span{
-    color: rgb(34, 31, 228);
-    font-weight: bold;
-  
+.p1 {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+span {
+  color: rgb(34, 31, 228);
+  font-weight: bold;
 }
