@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ip.com</title>
+    <link rel="icon" href="img/placeholder.png" type="image/gif/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <script>
+    fetch('https://json.geoiplookup.io')
+        .then(response => response.json())
+        .then(data => 
+        {
+            document.getElementById("ip").innerHTML = data.ip
+            document.getElementById("country_code").innerHTML = data.country_code
+            document.getElementById("region").innerHTML = data.region
+            document.getElementById("district").innerHTML = data.district
+            document.getElementById("city").innerHTML = data.city
+            document.getElementById("postal_code").innerHTML = data.postal_code
+            document.getElementById("hostname").innerHTML = data.hostname
+            document.getElementById("timezone_name").innerHTML = data.timezone_name
+            document.getElementById("connection_type").innerHTML = data.connection_type
+            document.getElementById("asn_number").innerHTML = data.asn_number
+            document.getElementById("isp").innerHTML = data.isp
+            document.getElementById("currency_code").innerHTML = data.currency_code
+            document.getElementById("currency_name").innerHTML = data.currency_name
+            document.getElementById("asn_org").innerHTML = data.asn_org
+            
+        });
+    </script>
+
+<link rel="stylesheet" href="magic.min.css">
+</head>
+
+<body>
+
+<fieldset class="field ">
+
+   
+    <div class="main ">
+        <div class="aladin">
+        <img src="img/placeholder.png" alt="" class="img animate__pulse animate__animated animate__infinite animate__faster ">
+        <h1>ALADIN- <span class="rad">ISP</span> </h1>
+        </div>
+
+    </div>
+         <div class="box">
+           <p class="proxy">Show My <span class="ip"> IP Address?</span> (Now detects many proxy servers)</p>
+         </div>
+      <div>
+
+      </div>
+      <div class="main2">
+          <div>Your IP</div>
+          <div>:</div>
+          <div id="ip"></div>
+      </div>
+
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.058914247025!2d90.59442851423994!3d23.638061084644914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b34b7a270f43%3A0xb1cbcf736bb93563!2sBarimojlish%20Jame%20Masjid!5e0!3m2!1sen!2sbd!4v1624189760482!5m2!1sen!2sbd" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+             
+      <div class="all">
+          <div>
+            <input type="Your IP Address" name="Your IP Address" placeholder="Your IP Address" class="put">
+            <input type="Submit" value="submit" class="sub">
+     </div>
+  
+    <table class="table1 puffIn">
+        <tr>
+          <td>country</td>
+          <td>:</td>
+          <td id="country_code"></td>
+        </tr>
+
+        <tr>
+            <td>State / Region</td>
+            <td>:</td>
+            <td id="region"></td>
+          </tr>
+
+
+
+          <tr >
+            <td>District</td>
+            <td>:</td>
+            <td id="district"></td>
+          </tr>
+
+          <tr >
+            <td>City</td>
+            <td>:</td>
+            <td id="city"></td>
+          </tr>
+
+          <tr >
+            <td> postal_code</td>
+            <td>:</td>
+            <td id="postal_code"></td>
+          </tr>
+
+          <tr >
+            <td>hostname</td>
+            <td>:</td>
+            <td id="hostname"></td>
+          </tr>
+          <tr >
+            <td>timezone_name</td>
+            <td>:</td>
+            <td id="timezone_name"></td>
+          </tr>
+          <td>connection_type</td>
+            <td>:</td>
+            <td id="connection_type"></td>
+          </tr>
+          <td>asn_number</td>
+            <td>:</td>
+            <td id="asn_number"></td>
+          </tr>
+          <td>ispt</td>
+            <td>:</td>
+            <td id="isp"></td>
+          </tr>
+
+        </tr>
+          <td>currency_code</td>
+          <td>:</td>
+          <td id="currency_code"></td>
+        </tr>
+
+       </tr>
+        <td>currency_name</td>
+        <td>:</td>
+        <td id="currency_name"></td>
+       </tr>
+
+    </tr>
+    <td>asn_org</td>
+    <td>:</td>
+    <td id="asn_org"></td>
+   </tr>
+      
+</table>
+  <p class="p1">Mentored by <span>CourseAble</span> . Coded by <span>Ananta</span> .</p>
+</fieldset>
+</body>
+</html>
